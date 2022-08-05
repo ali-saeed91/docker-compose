@@ -12,7 +12,7 @@
 from flask import Flask, jsonify
 app = Flask(__name__)
 
-@app.route('/api/v1/testApi')
+@app.route('/')
 def testApp():
     return jsonify({'message':'Simple API Test: This App is working'})
 
