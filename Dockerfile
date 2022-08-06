@@ -12,5 +12,5 @@ RUN pip install -r requirements.txt
 
 #CMD instruction should be used to run the software
 #contained by your image, along with any arguments.
-EXPOSE 5000
+EXPOSE 8000
 CMD [ "python", "./app.py"]
