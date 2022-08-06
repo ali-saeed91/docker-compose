@@ -17,4 +17,4 @@ def testApp():
     return jsonify({'message':'Simple API Test: This App is working'})
 
 if __name__ == '__main__':
-    app.run(debug=True, host=0.0.0.0)
+    app.run(debug=True)
