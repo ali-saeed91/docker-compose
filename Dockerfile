@@ -7,6 +7,7 @@ ADD app.py .
 
 COPY requirements.txt .
 
+RUN pip install -U pip 
 RUN pip install -r requirements.txt
 
 #CMD instruction should be used to run the software
