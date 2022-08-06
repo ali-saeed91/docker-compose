@@ -7,7 +7,7 @@
     # DELETE
 
 # localhost = 127.0.0.1
-# Port number: 8000
+# Port number: 5000
 
 from flask import Flask, jsonify
 app = Flask(__name__)
