@@ -47,7 +47,7 @@ jobs:
         run: ssh staging 'cd ~ && sudo docker images'
 
       - name: Check Flask Status
-        run: ssh staging 'cd ~ && curl localhost:5000/' 
+        run: ssh staging 'cd ~ && curl localhost:8000/' 
 
 
 
